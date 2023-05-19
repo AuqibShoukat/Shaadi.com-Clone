@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+} 
+header {
+    background-image: url("image/home-banner-ri.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+nav ul {
+    list-style-type: none;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.help-icon {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 24px;
+}
+.top-hero-block {
+    padding: 10px 100px;
+    padding-top: 44px;
+}
+.brand-logo {
+    /* border: 2px solid white; */
+    position: relative;
+    top: 5px;
+    left: 100px;
+}
+nav {
+    position: relative;
+    left: 730px;
+    display: inline-block;
+}
+main {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    margin: auto;
+}
+main :first-child {
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: bolder;
+}
+main :last-child {
+    font-size: 28px;
+}
+
+form {
+    margin: auto;
+    width: 80vw;
+}
+.form-block {
+    background-color: rgba(0, 0, 0, 0.405);
+    color: white;
+    font-size: 18px;
+    padding: 20px 0px;
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    top: 280px;
+}
+fieldset, form button {
+    display: inline-block;
+    border: none;
+    margin-left: 10px;
+    width: 150px;
+}
+fieldset select {
+    width: 100px;
+    padding: 5px 3px;
+    border-radius: 3px;
+    background-color: white;
+}
+fieldset label {
+    display: block;
+}
+form button {
+    padding: 5px 3px;
+    border-radius: 3px;
+    background-color: #53b9d2;
+    color: white;
+    font-size: 18px;
+}
+form button:hover {
+    background-color: #1da0c1;
+}
+
+
+.find-block {
+    height: 80vh;
+    /* background-color: aqua; */
+    background-color: #f1f1f2;
+}
+.find-block h2 {
+    font-size: 32px;
+    text-align: center;
+    padding: 50px;
+    color: rgb(241, 62, 62);
+}
+.card {
+    /* height: 300px; */
+    padding: 20px;
+    display: inline-block;
+    margin-left: 50px;
+    /* background-color: red; */
+}
+.card:hover {
+    box-shadow: 0px 0px 10px 1px gray;
+    transform: scale(1.1);
+}
+.Logo-1 {
+    /* background-color: red; */
+    background-image: url("image/logo-1.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 120px;
+}
+.Logo-2 {
+    /* background-color: red; */
+    background-image: url("image/logo-2.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 95px;
+}
+.Logo-3 {
+    /* background-color: red; */
+    background-image: url("image/logo-3.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 120px;
+}
+.card a {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+.card p {
+    margin-top: 10px;
+}
+
+.find-block-1 {
+    height: 80vh;
+    /* background-color: aqua; */
+}
+.find-block-1 h2 {
+    font-weight: lighter;
+    font-size: 32px;
+    text-align: center;
+    padding: 50px;
+    color: rgb(241, 62, 62);
+}
+.card-1 {
+    /* height: 300px; */
+    /* padding: 20px; */
+    overflow: scroll;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    width: 220px;
+    height: 320px;
+    margin: 0px 50px;
+}
+.img-1 {
+    background-image: url("https://img.shaadi.com/success-story/mSH86747084-7SH69777480-big.jpg");
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-2 {
+    background-image: url("https://img.shaadi.com/success-story/eSH44606673-9SH73198060-big.jpg");
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-3 {
+    background-image: url("https://img.shaadi.com/success-story/OSH53801312-6SH15441119-big.jpg");
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h4, .detail, p {
+    padding: 5px 10px;
+}
+.card-1 {
+    box-shadow: 0px 0px 3px 0.3px gray;
+    transform: scale(1.1);
+}
+.card-1:hover {
+    box-shadow: 0px 0px 30px 5px gray;
+    transform: scale(1.1);
+}
+
+.find-block-2 {
+    margin: 50px 0px;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(241, 62, 62);
+}
+.line-block {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 25px 50px;
+    position: relative;
+    left: 300px;
+}
+.button-1 {
+    background-color:rgb(241, 62, 62);
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 15px 50px;
+    position: relative;
+    left: 300px;
+}
+.button-1:hover {
+    background-color: white;
+    color: aqua;
+}
+
+.img-logo-2 {
+background-repeat: no-repeat;
+position: relative;
+left: 50vw;
+margin: 50px 0px;
+}
+
+.find-block-3 {
+height: 30vh;
+}
+.find-block-3 h2 {
+font-weight: lighter;
+font-size: 32px;
+text-align: center;
+padding-bottom: 50px;
+color: rgb(241, 62, 62);
+}
+.block-3 {
+padding: 0px 150px;
+font-size: 16px;
+color: grey;
+/* color: red; */
+}
+
+.find-block-4 {
+height: 15vh;
+}
+.country {
+color: rgb(86, 181, 181);
+text-align: center;
+border-right: 1px solid gray;
+}
+.country span {
+padding: 5px;
+border-right: 1px solid gray;
+}
+.country span:hover {
+/* background-color: red; */
+text-decoration: underline;
+}
+
+
+.find-block-5 {
+height: 30vh;
+}
+.find-block-5 h6 {
+background-color: rgb(30, 222, 222);
+width: 220px;
+font-size: 24px;
+font-weight: lighter;
+color: white;
+text-align: center;
+}
+.find-block-5, h6 {
+margin: auto;
+}
+.end-block {
+/* background-color: red; */
+display: inline-block;
+padding: 20px 50px;
+color: gray;
+position: relative; 
+left: 350px;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+}
+
+
+.find-block-6 {
+height: 40vh;
+}
+.find-block-6 h5{
+font-size: 18px;
+color: grey;
+font-weight: lighter;
+padding: 20px 0px;
+}
+.the-end {
+/* padding-top: 10px; */
+color: grey;
+}
+.new {
+display: flex;
+justify-content: space-evenly;
+}
+.the-end h5 {
+border-bottom: 1px solid gray;
+margin: 20px 0px;
+}
+.the-end:hover {
+text-decoration: underline;
+}
+
+.find-block-7 {
+height: 10vh;
+background-color: rgba(128, 128, 128, 0.588);
+color: white;
+text-align: center;
+padding: 10px 0px;
+}
